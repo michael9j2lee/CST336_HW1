@@ -1,3 +1,8 @@
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+}    
+
 body {
     background-image: linear-gradient(gray, #ADD8E6);
 }
@@ -34,7 +39,7 @@ footer {
 ul {
     width: 500px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 .hobby {
@@ -109,4 +114,20 @@ h1 {
     to{
         transform: translate(50%,50%);
     }
+}
+
+.flex-container{
+    flex-direction: row;
+    margin:30px;
+    padding: 10px;
+}
+
+li {
+    text-align: left;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
 }
